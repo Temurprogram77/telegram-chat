@@ -16,7 +16,7 @@ function sendMessage() {
 
     var messageTime = document.createElement("span");
     messageTime.classList.add("time");
-    messageTime.textContent = new Date().toLocaleTimeString().slice(0, 5);  // H:m formatida vaqt
+    messageTime.textContent = new Date().toLocaleTimeString().slice(0, 5);
 
     newMessage.appendChild(messageContent);
     newMessage.appendChild(messageTime);

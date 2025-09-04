@@ -24,7 +24,7 @@ body {
 }
 
 .chat-header {
-    background-color: #00cd5c;  /* Yashil rang */
+    background-color: #00cd5c;
     color: white;
     padding: 15px;
     text-align: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .sent p {
-    background-color: #00cd5c;  /* Yashil rang */
+    background-color: #00cd5c;
     color: white;
 }
 
@@ -90,19 +90,16 @@ body {
 .message-input button {
     padding: 10px 15px;
     border: none;
-    background-color: #00cd5c;  /* Yashil rang */
+    background-color: #00cd5c;
     color: white;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .message-input button:hover {
-    background-color: #0096c7;  /* Yashil rangga o'xshash biror qo'shimcha rang */
+    background-color: #0096c7;
 }
 
-/* Media queries */
-
-/* Planshetlar va kichik ekranlar uchun */
 @media (max-width: 768px) {
     .chat-container {
         width: 100%;
@@ -132,7 +129,6 @@ body {
     }
 }
 
-/* Mobil telefonlar uchun */
 @media (max-width: 480px) {
     .chat-container {
         width: 100%;
